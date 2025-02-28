@@ -35,7 +35,7 @@ let package = Package(
             ],
             swiftSettings: [
         		.unsafeFlags(["-enable-library-evolution"])
-    		]
+    		],
             resources: [.process("Resources")]
         ),
         .testTarget(
