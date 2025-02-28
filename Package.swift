@@ -33,6 +33,9 @@ let package = Package(
                 .product(name: "Sovran", package: "sovran-swift"),
                 .product(name: "JSONSafeEncoding", package: "jsonsafeencoding-swift")
             ],
+            swiftSettings: [
+        		.unsafeFlags(["-enable-library-evolution"])
+    		]
             resources: [.process("Resources")]
         ),
         .testTarget(
