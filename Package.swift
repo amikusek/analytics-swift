@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "analytics-swift",
+    name: "Segment",
     platforms: [
         .macOS("10.15"),
         .iOS("13.0"),
